@@ -5,7 +5,6 @@ for (let i = 0; i < numbers.length; i++) {
 		output.value += event.target.innerHTML;
 	});
 }
-
 document.getElementById('ce').addEventListener('click', () => {
 	output.value = '';
 });
